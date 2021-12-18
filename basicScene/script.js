@@ -1,7 +1,7 @@
 // Scene
 const scene = new THREE.Scene();
 
-// Red cube
+// Red cube 도형, 머테리얼
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({ color: "red" });
 const mesh = new THREE.Mesh(geometry, material);
